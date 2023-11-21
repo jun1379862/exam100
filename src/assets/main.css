@@ -1,0 +1,93 @@
+@import './base.css';
+
+
+@font-face {
+  font-family: workSansBold;
+  src: url('@/assets/fonts/WorkSans-Bold.ttf');
+}
+@font-face {
+  font-family: workSansBoldI;
+  src: url('@/assets/fonts/WorkSans-BoldItalic.ttf');
+}
+@font-face {
+  font-family: workSansBlack;
+  src: url('@/assets/fonts/WorkSans-Black.ttf');
+}
+@font-face {
+  font-family: workSansThin;
+  src: url('@/assets/fonts/WorkSans-Thin.ttf');
+}
+@font-face {
+  font-family: workSansLight;
+  src: url('@/assets/fonts/WorkSans-Light.ttf');
+}
+@font-face {
+  font-family: workSansSemiBold;
+  src: url('@/assets/fonts/WorkSans-SemiBold.ttf');
+}
+
+
+
+
+
+
+
+h1{
+  color: white;
+  font-size: 40px;
+  line-height: 46px;
+  font-family: workSansBold;
+}
+h2{
+  color: white;
+  font-size: 25px;
+  font-family: workSansSemiBold;
+  line-height: 29px;
+}
+
+h3{
+  color: white;
+  font-size: 20px;
+  font-family: workSansSemiBold;
+  line-height: 24px;
+}
+
+.h1-i{
+  font-family: workSansBoldI;
+}
+.body-txt{
+  font-family: workSansLight;
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-weight: normal;
+}
+
+body{
+  background-color: var(--default-body-bg);
+}
+
+@media (hover: hover) {
+  /* a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  } */
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+  } */
+}
